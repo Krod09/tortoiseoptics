@@ -1,0 +1,120 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+  background-color: azure;
+}
+.sitecontainer {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*HEADER*/
+header {
+  background-image: url("../img/glasses-bg.png");
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  color: white;
+}
+header .sitecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.banner {
+  background-color: cadetblue;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.banner .brand {
+  display: flex;
+  align-items: center;
+}
+#logo {
+  height: 1.5rem;
+  margin: 0 1rem 0 2rem;
+}
+#company {
+  font-size: 1rem;
+}
+.banner nav {
+  display: flex;
+}
+.banner span {
+  margin: 1rem 2rem;
+}
+.title {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+}
+
+/*MAIN*/
+.images {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  margin: 3rem;
+}
+.images div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+   margin: 0 6rem;
+}
+.paper img {
+  width: 3.5rem;
+}
+.ruler img, .truck img {
+  width: 5rem;
+}
+.info {
+  display: flex;
+}
+.philos, .appts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35%;
+  margin: 0 5% 0 0;
+  border: 1px solid red;
+
+}
+main .title {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  width: 10rem;
+  padding: .5rem 1.25rem;
+  margin: 0 0 1rem 0;
+}
+
+main p {
+}
+/*FOOTER*/
+footer {
+  margin: 4rem;
+  display: flex;
+  align-items: center;
+}
+footer img {
+  height: 1.5rem;
+}
+footer p {
+  margin: 1rem;
+}
